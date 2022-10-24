@@ -2,8 +2,6 @@
 
 <aiml version="1.0.1">
 
-
-
 <category>
 <pattern>HI</pattern>
 <template>
