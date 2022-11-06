@@ -2,6 +2,8 @@
 
 <aiml version="1.0.1">
 
+
+
 <category>
 <pattern>HI</pattern>
 <template>
@@ -13,38 +15,35 @@
 </category>
 
 <category>
-<pattern>WHAT IS YOUR NAME</pattern>
-<template>My name is Siri</template>
+<pattern>SUNDAY</pattern>
+<template>the day of the week before Monday and following Saturday</template>
 </category>
-
 <category>
-<pattern>WHAT IS AIML</pattern>
-<template>AIML is a language</template>
+<pattern>MONDAY</pattern>
+<template>the day of the week before Tuesday and following Sunday</template>
 </category>
-
-
-
 <category>
-<pattern>wHAT IS *</pattern>
-<template><set name ="username"> <star /></set></template>
+<pattern>TUESDAY</pattern>
+<template>the day of the week before Wednesday and following Monday</template>
+</category>
+<category>
+<pattern>WEDNESDAY</pattern>
+<template>the day of the week before Thursday and following Tuesday</template>
+</category>
+<category>
+<pattern>THURSDAY</pattern>
+<template>the day of the week before Friday and following Wednesday</template>
+</category>
+<category>
+<pattern>FRIDAY</pattern>
+<template>the day of the week before Saturday and following Thursday</template>
+</category>
+<category>
+<pattern>SATURDAY</pattern>
+<template>the day of the week before Sunday and following Friday</template>
 </category>
 
-   <category>
-      <pattern>WHAT ABOUT MOVIES</pattern>
-      <template>Do you like comedy movies</template>  
-   </category>
-   
-   <category>
-      <pattern>YES</pattern>
-      <that>Do you like comedy movies</that>
-      <template>Nice, I like comedy movies too.</template>
-   </category>
-   
-   <category>
-      <pattern>NO</pattern>
-      <that>Do you like comedy movies</that>
-      <template>Ok! But I like comedy movies.</template>
-   </category>
+
 
 </aiml>
 
